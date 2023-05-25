@@ -23,6 +23,31 @@ class Body extends StatelessWidget {
                     bottomRight: Radius.circular(36),
                   ),
                 ),
+                child: Row(
+                  children: <Widget>[
+                    Text(
+                      'test',
+                      // style: TextStyle(
+                      //   color: Colors.white,
+                      //   fontWeight: FontWeight.bold,
+                      // ),
+                      // style: theme.of(
+                      //       context,
+                      //     )
+                      //     .TextStyle
+                      //     .bodyText1
+                      //     .copyWith(
+                      //       color: Colors.white,
+                      //       fontWeight: FontWeight.bold,
+                      //     ),
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 90,
+                      ),
+                    ),
+                  ],
+                ),
               ),
               Positioned(
                 bottom: 0,
@@ -48,6 +73,7 @@ class Body extends StatelessWidget {
                     children: <Widget>[
                       Expanded(
                         child: TextField(
+                          onChanged: (value) {},
                           decoration: InputDecoration(
                             hintText: "Search",
                             hintStyle: TextStyle(
@@ -59,7 +85,10 @@ class Body extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Icon(Icons.search),
+                      Icon(
+                        Icons.search,
+                        color: kPrimaryColor.withOpacity(.5),
+                      ),
                     ],
                   ),
                 ),

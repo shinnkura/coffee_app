@@ -18,7 +18,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,
-        textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
+        textTheme:
+            Theme.of(context).textTheme.apply(bodyColor: kTextColor).copyWith(
+                  bodyText1: TextStyle(
+                    color: kTextColor,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 90,
+                  ),
+                ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: const HomeScreen(),
