@@ -19,11 +19,18 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,
         textTheme:
-            Theme.of(context).textTheme.apply(bodyColor: kTextColor).copyWith(
-                  bodyText1: TextStyle(
+            // Theme.of(context).textTheme.apply(bodyColor: kTextColor).copyWith(
+            //       bodyText1: TextStyle(
+            //         color: kTextColor,
+            //         fontWeight: FontWeight.bold,
+            //         fontSize: 90,
+            //       ),
+            //     ),
+            ThemeData().textTheme.apply(bodyColor: kTextColor).copyWith(
+                  bodyMedium: TextStyle(
                     color: kTextColor,
                     fontWeight: FontWeight.bold,
-                    fontSize: 90,
+                    fontSize: 24,
                   ),
                 ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
