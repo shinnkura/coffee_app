@@ -14,7 +14,13 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           HeaderWithSearchBox(size: size),
-          TitleWithCustomUnderline(),
+          Row(
+            children: const <Widget>[
+              TitleWithCustomUnderline(
+                text: 'Recommended',
+              ),
+            ],
+          ),
         ],
       ),
     );
@@ -24,7 +30,10 @@ class Body extends StatelessWidget {
 class TitleWithCustomUnderline extends StatelessWidget {
   const TitleWithCustomUnderline({
     super.key,
+    required this.text,
   });
+
+  final String text;
 
   @override
   Widget build(BuildContext context) {
@@ -32,11 +41,11 @@ class TitleWithCustomUnderline extends StatelessWidget {
       height: 24,
       child: Stack(
         children: <Widget>[
-          const Padding(
+          Padding(
             padding: const EdgeInsets.only(left: kDefaultPadding / 4),
             child: Text(
-              "Recommended",
-              style: TextStyle(
+              text,
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
                 color: Colors.black,
