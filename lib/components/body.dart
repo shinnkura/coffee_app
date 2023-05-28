@@ -16,7 +16,7 @@ class Body extends StatelessWidget {
         children: <Widget>[
           HeaderWithSearchBox(size: size),
           TitleWithMoreBtn(
-            title: 'Recommended',
+            title: 'おすすめ',
             press: () {},
           ),
         ],

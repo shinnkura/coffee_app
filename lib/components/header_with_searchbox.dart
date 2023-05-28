@@ -17,7 +17,7 @@ class HeaderWithSearchBox extends StatelessWidget {
       child: Stack(
         children: <Widget>[
           Container(
-            padding: EdgeInsets.only(
+            padding: const EdgeInsets.only(
               left: kDefaultPadding,
               right: kDefaultPadding,
               bottom: 36 + kDefaultPadding,
@@ -33,7 +33,7 @@ class HeaderWithSearchBox extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 Text(
-                  'Hello User!',
+                  'こんにちは User!',
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 Spacer(),

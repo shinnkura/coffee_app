@@ -35,7 +35,7 @@ class TitleWithMoreBtn extends StatelessWidget {
               ),
             ),
             child: const Text(
-              'More',
+              'もっと見る',
               style: TextStyle(
                 color: Colors.white,
               ),
