@@ -21,27 +21,29 @@ class Body extends StatelessWidget {
             title: 'おすすめ',
             press: () {},
           ),
-          Row(
-            children: [
-              RecomendePlantCard(
-                image: "assets/images/image_1.png",
-                title: "BlueMouten",
-                price: 1000,
-                press: () {},
-              ),
-              RecomendePlantCard(
-                image: "assets/images/image_1.png",
-                title: "BlueMouten",
-                price: 1000,
-                press: () {},
-              ),
-              RecomendePlantCard(
-                image: "assets/images/image_1.png",
-                title: "BlueMouten",
-                price: 1000,
-                press: () {},
-              ),
-            ],
+          SingleChildScrollView(
+            child: Row(
+              children: [
+                RecomendePlantCard(
+                  image: "assets/images/image_1.png",
+                  title: "BlueMouten",
+                  price: 1000,
+                  press: () {},
+                ),
+                RecomendePlantCard(
+                  image: "assets/images/image_1.png",
+                  title: "BlueMouten",
+                  price: 1000,
+                  press: () {},
+                ),
+                RecomendePlantCard(
+                  image: "assets/images/image_1.png",
+                  title: "BlueMouten",
+                  price: 1000,
+                  press: () {},
+                ),
+              ],
+            ),
           ),
         ],
       ),
@@ -60,7 +62,7 @@ class RecomendePlantCard extends StatelessWidget {
 
   final String image, title;
   final int price;
-  final Function()? press;
+  final VoidCallback press;
 
   @override
   Widget build(BuildContext context) {
@@ -68,6 +70,7 @@ class RecomendePlantCard extends StatelessWidget {
 
     return SizedBox(
       width: size.width * .8,
+      height: size.height * .8,
       child: Column(
         children: <Widget>[
           Container(
@@ -77,7 +80,7 @@ class RecomendePlantCard extends StatelessWidget {
               bottom: kDefaultPadding * 2.5,
             ),
             height: 250,
-            width: 150,
+            width: 200,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(16),
