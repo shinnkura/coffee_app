@@ -22,6 +22,7 @@ class Body extends StatelessWidget {
             press: () {},
           ),
           SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
             child: Row(
               children: [
                 RecomendePlantCard(
@@ -69,7 +70,7 @@ class RecomendePlantCard extends StatelessWidget {
     var size = MediaQuery.of(context).size;
 
     return SizedBox(
-      width: size.width * .8,
+      // width: size.width * .8,
       height: size.height * .8,
       child: Column(
         children: <Widget>[
@@ -80,7 +81,7 @@ class RecomendePlantCard extends StatelessWidget {
               bottom: kDefaultPadding * 2.5,
             ),
             height: 250,
-            width: 200,
+            width: 170,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(16),
