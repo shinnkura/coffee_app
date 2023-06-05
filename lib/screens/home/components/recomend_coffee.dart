@@ -1,7 +1,6 @@
+import 'package:coffee_app/constants.dart';
+import 'package:coffee_app/screens/details/details_screen.dart';
 import 'package:flutter/material.dart';
-
-import '../../../constants.dart';
-import '../../details/details_screen.dart';
 
 class RecomendCoffee extends StatelessWidget {
   const RecomendCoffee({
@@ -75,8 +74,6 @@ class RecomendePlantCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      // width: size.width * .8,
-      // height: size.height * .8,
       child: Column(
         children: <Widget>[
           Container(
