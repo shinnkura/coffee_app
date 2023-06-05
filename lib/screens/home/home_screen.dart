@@ -1,8 +1,8 @@
+import 'package:coffee_app/components/my_bottom_nav_bar.dart';
 import 'package:coffee_app/constants.dart';
 import 'package:flutter/material.dart';
 
-import 'components/my_bottom_nav_bar.dart';
-import 'screens/home/components/body.dart';
+import 'components/body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: buildAppBar(),
       body: const Body(),
-      bottomNavigationBar: MyBottomNavBar(),
+      bottomNavigationBar: const MyBottomNavBar(),
     );
   }
 

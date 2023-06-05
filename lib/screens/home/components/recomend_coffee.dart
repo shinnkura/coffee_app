@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
+import '../../details/details_screen.dart';
 
 class RecomendCoffee extends StatelessWidget {
   const RecomendCoffee({
@@ -17,37 +18,40 @@ class RecomendCoffee extends StatelessWidget {
             image: "assets/images/image_1.png",
             title: "BlueMouten",
             price: 1000,
-            press: () {},
+            press: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const DetailsScreen(),
+                ),
+              );
+            },
           ),
           RecomendePlantCard(
             image: "assets/images/image_1.png",
             title: "BlueMouten",
             price: 1000,
-            press: () {},
+            press: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const DetailsScreen(),
+                ),
+              );
+            },
           ),
           RecomendePlantCard(
             image: "assets/images/image_1.png",
             title: "BlueMouten",
             price: 1000,
-            press: () {},
-          ),
-          RecomendePlantCard(
-            image: "assets/images/image_1.png",
-            title: "BlueMouten",
-            price: 1000,
-            press: () {},
-          ),
-          RecomendePlantCard(
-            image: "assets/images/image_1.png",
-            title: "BlueMouten",
-            price: 1000,
-            press: () {},
-          ),
-          RecomendePlantCard(
-            image: "assets/images/image_1.png",
-            title: "BlueMouten",
-            price: 1000,
-            press: () {},
+            press: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const DetailsScreen(),
+                ),
+              );
+            },
           ),
         ],
       ),
@@ -70,8 +74,6 @@ class RecomendePlantCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
-
     return SizedBox(
       // width: size.width * .8,
       // height: size.height * .8,

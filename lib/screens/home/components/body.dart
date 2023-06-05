@@ -1,13 +1,9 @@
-import 'dart:ffi';
-
+import 'package:coffee_app/screens/home/components/new_coffee_card.dart';
 import 'package:coffee_app/screens/home/components/recomend_coffee.dart';
 import 'package:coffee_app/screens/home/components/title_with_more_bttn.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:coffee_app/constants.dart';
 
-import '../../../components/header_with_searchbox.dart';
-import '../../components/new_coffee_card.dart';
+import 'header_with_searchbox.dart';
 
 class Body extends StatelessWidget {
   // const body({super.key});
