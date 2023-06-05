@@ -28,9 +28,24 @@ class Body extends StatelessWidget {
             title: '新着',
             press: () {},
           ),
-          NewCoffeeCard(
-            image: 'assets/images/image_1.png',
-            press: () {},
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                NewCoffeeCard(
+                  image: 'assets/images/image_1.png',
+                  press: () {},
+                ),
+                NewCoffeeCard(
+                  image: 'assets/images/image_1.png',
+                  press: () {},
+                ),
+                NewCoffeeCard(
+                  image: 'assets/images/image_1.png',
+                  press: () {},
+                ),
+              ],
+            ),
           ),
         ],
       ),
@@ -40,9 +55,9 @@ class Body extends StatelessWidget {
 
 class NewCoffeeCard extends StatelessWidget {
   const NewCoffeeCard({
-    Key key,
-    this.image,
-    this.press,
+    Key? key,
+    required this.image,
+    required this.press,
   }) : super(key: key);
   final String image;
   final Function press;
@@ -51,7 +66,7 @@ class NewCoffeeCard extends StatelessWidget {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return GestureDetector(
-      onTap: press,
+      onTap: () => press(),
       child: Container(
         margin: const EdgeInsets.only(
           left: kDefaultPadding,
