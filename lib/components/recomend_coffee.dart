@@ -74,7 +74,7 @@ class RecomendePlantCard extends StatelessWidget {
 
     return SizedBox(
       // width: size.width * .8,
-      height: size.height * .8,
+      // height: size.height * .8,
       child: Column(
         children: <Widget>[
           Container(

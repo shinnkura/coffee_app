@@ -22,8 +22,42 @@ class Body extends StatelessWidget {
             title: 'おすすめ',
             press: () {},
           ),
-          RecomendCoffee(),
+          const RecomendCoffee(),
+          TitleWithMoreBtn(
+            title: '新着',
+            press: () {},
+          ),
+          NewCoffeeCard(size: size),
         ],
+      ),
+    );
+  }
+}
+
+class NewCoffeeCard extends StatelessWidget {
+  const NewCoffeeCard({
+    super.key,
+    required this.size,
+  });
+
+  final Size size;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(
+        left: kDefaultPadding,
+        top: kDefaultPadding / 2,
+        bottom: kDefaultPadding / 2,
+      ),
+      width: size.width * .8,
+      height: 185,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10),
+        image: const DecorationImage(
+          image: AssetImage('assets/images/image_1.png'),
+          fit: BoxFit.cover,
+        ),
       ),
     );
   }
