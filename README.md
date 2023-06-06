@@ -5,7 +5,7 @@
 <div style="display: flex;">
   <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.18.58.png" alt="ホーム画面" style="width: 25%;">
   <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.03.png" alt="ホーム画面２" style="width: 25%;">
-  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.07.png.png" alt="遷移画面" style="width: 25%;">
+  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.07.png" alt="遷移画面" style="width: 25%;">
   <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.11.png" alt="遷移画面２" style="width: 25%;">
 </div>
 
