@@ -16,7 +16,7 @@ class RecomendCoffee extends StatelessWidget {
           RecomendePlantCard(
             image: "assets/images/image_1.png",
             title: "BlueMouten",
-            price: 1000,
+            price: 880,
             press: () {
               Navigator.push(
                 context,
@@ -29,7 +29,7 @@ class RecomendCoffee extends StatelessWidget {
           RecomendePlantCard(
             image: "assets/images/image_1.png",
             title: "BlueMouten",
-            price: 1000,
+            price: 880,
             press: () {
               Navigator.push(
                 context,
@@ -42,7 +42,7 @@ class RecomendCoffee extends StatelessWidget {
           RecomendePlantCard(
             image: "assets/images/image_1.png",
             title: "BlueMouten",
-            price: 1000,
+            price: 880,
             press: () {
               Navigator.push(
                 context,
