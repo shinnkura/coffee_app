@@ -3,10 +3,10 @@
 このアプリケーションは、Flutter で作成されたコーヒーアプリケーションです。コーヒーの種類を表示し、詳細を見ることができます。
 
 <div style="display: flex;">
-  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.18.58.png" alt="ホーム画面" style="width: 50%;">
-  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.03.png" alt="ホーム画面２" style="width: 50%;">
-  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.07.png" alt="遷移画面" style="width: 50%;">
-  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.11.png" alt="遷移画面２" style="width: 50%;">
+  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.18.58.png" alt="ホーム画面" style="width: 30%;">
+  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.03.png" alt="ホーム画面２" style="width: 30%;">
+  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.07.png" alt="遷移画面" style="width: 30%;">
+  <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.11.png" alt="遷移画面２" style="width: 30%;">
 </div>
 
 ## 特徴
