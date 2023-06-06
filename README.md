@@ -2,11 +2,6 @@
 
 このアプリケーションは、Flutter で作成されたコーヒーアプリケーションです。コーヒーの種類を表示し、詳細を見ることができます。
 
-![ホーム画面](images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202023-06-07%20at%2001.18.58.png)
-![ホーム画面２](images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202023-06-07%20at%2001.19.03.png)
-![遷移画面](images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202023-06-07%20at%2001.19.07.png)
-![遷移画面２](images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202023-06-07%20at%2001.19.11.png)
-
 <div style="display: flex;">
   <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.18.58.png" alt="ホーム画面" style="width: 25%;">
   <img src="images/Simulator Screenshot - iPhone 14 - 2023-06-07 at 01.19.03.png" alt="ホーム画面２" style="width: 25%;">
