@@ -1,5 +1,7 @@
+import 'package:coffee_app/constants.dart';
 import 'package:flutter/material.dart';
 
+import 'cart_and_description.dart';
 import 'image_and_icon.dart';
 import 'title_and_price.dart';
 
@@ -18,6 +20,8 @@ class Body extends StatelessWidget {
             country: "Jamaica",
             price: 880,
           ),
+          CartAndDescription(size: size),
+          const SizedBox(height: kDefaultPadding * 2),
         ],
       ),
     );
