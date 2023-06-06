@@ -1,4 +1,3 @@
-import 'package:coffee_app/constants.dart';
 import 'package:flutter/material.dart';
 
 import 'cart_and_description.dart';
