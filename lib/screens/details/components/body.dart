@@ -21,7 +21,7 @@ class Body extends StatelessWidget {
             price: 880,
           ),
           CartAndDescription(size: size),
-          const SizedBox(height: kDefaultPadding * 2),
+          // const SizedBox(height: kDefaultPadding * 2),
         ],
       ),
     );
